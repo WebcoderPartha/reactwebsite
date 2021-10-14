@@ -1,0 +1,179 @@
+.topFixedBanner{
+    background-image: url('../images/banner.jpg');
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBannerOverly{
+    position: absolute;
+    min-height: 550px;
+    width: 100%;
+    background: rgb(0,0,0, 0.7);
+}
+.topContent{
+    margin-top: 10em;
+}
+
+.topBrandName{
+    color:#fff !important;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.topBrandNameScroll{
+    color:rgb(189, 41, 41) !important;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.logo{
+    width: 200px;
+}
+.topBackground{
+    background-color: rgb(00, 00, 00, 0.0);
+}
+.topBackgroundScroll{
+    background-color: #fff;
+}
+.menu{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.menu a{
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.699) !important;
+    font-weight: bold !important;
+}
+.menuScoll{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.menuScoll a{
+    text-decoration: none !important;
+    color: #c52e2e !important;
+    font-weight: bold !important;
+}
+
+
+.summaryBanner{
+    background-image: url('../images/summary.jpg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summaryBannerOverly{
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(90, 81, 202, 0.4);
+}
+.summarymain{
+    margin-top:14%;
+}
+.summaryCard{
+    margin-top: 20%;
+}
+.counterSummary{
+    color: #fff;
+    font-size: 30px;
+}
+.summaryTitle{
+    color: rgb(250, 208, 21);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.summaryIcon{
+    color:#fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.courseImage{
+    width: 100%;
+}
+.courseLink{
+    text-decoration: none;
+    color: #333030;
+    cursor: pointer;
+    font-weight: bold;
+}
+.VideoPlayers{
+    background: rgb(50, 24, 61);
+    box-shadow: rgb(red, green, blue);
+    padding: 8rem 9rem 9rem 17rem;
+}
+.videoIcon{
+    color:#fff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.reviewContent{
+    background: rgb(34, 36, 75);
+    min-height: 400px;
+    color: #fff;
+}
+
+.reviewImage{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block !important;
+    text-align: center;
+}
+.aboutImage{
+    width: 50%;
+    background: rgb(160, 68, 68);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.aboutGrad{
+    font-size: 25px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutName{
+    font-size: 30px;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aboutWork{
+    font-size: 28px;
+}
+.aboutWork span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.aboutMeDetails{
+    margin-top: 15%;
+}
+.footerContainer{
+    background: rgb(21, 21, 22);
+    text-align: center;
+    color:#fff;
+    padding: 30px 0;
+}
+.socialIcon a{
+    font-size: 30px;
+    margin: 0px 10px;
+    color: #fff;
+}
+.socialIcon a:hover{
+    color: rgb(34, 36, 75);
+}
+.footerBottom{
+    background: rgb(32, 32, 32);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid rgb(30, 44, 49);
+}
+.footertext {
+    margin: 0px !important;
+}
