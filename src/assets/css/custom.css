@@ -177,3 +177,24 @@
 .footertext {
     margin: 0px !important;
 }
+
+
+
+.headerBannerFixedBanner{
+    background-image: url('../images/page.png');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerBannerOverly{
+    position: absolute;
+    min-height: 300px;
+    width: 100%;
+    background: rgb(0,0,0, 0.7);
+}
+.headerBannerContent{
+    margin-top: 12%;
+}
