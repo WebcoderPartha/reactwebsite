@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 import logo from '../../assets/images/logo.png'
 import logoScoll from '../../assets/images/logo-scroll.png'
 import '../../assets/css/custom.css'
+import { NavLink } from 'react-router-dom'
 
 export default class TopNavigation extends Component {
 
@@ -46,18 +47,18 @@ export default class TopNavigation extends Component {
         <Fragment>
             <Navbar collapseOnSelect fixed="top" expand="lg" className={this.state.topBackground} variant={this.state.variant}>
                 <Container>
-                    <Navbar.Brand className={this.state.topTitle} href="#home"><img className="logo" src={this.state.logo} alt="" /></Navbar.Brand>
+                    <Navbar.Brand className={this.state.topTitle} href="/"><img className="logo" src={this.state.logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                         </Nav>
                         <Nav className={this.state.topMenu}>
-                            <Nav.Link href="#deets">HOME</Nav.Link>
-                            <Nav.Link href="#deets">ABOUT</Nav.Link>
-                            <Nav.Link href="#deets">SERVICES</Nav.Link>
-                            <Nav.Link href="#deets">COURSES</Nav.Link>
-                            <Nav.Link href="#deets">PORTFOLIO</Nav.Link>
-                            <Nav.Link href="#deets">CONTACT US</Nav.Link>
+                            <NavLink className="nav-link" to="/">HOME</NavLink>
+                            <NavLink className="nav-link" to="/about">ABOUT</NavLink>
+                            <NavLink className="nav-link" to="/services">SERVICES</NavLink>
+                            <NavLink className="nav-link" to="/courses">COURSES</NavLink>
+                            <NavLink className="nav-link" to="/portfolio">PORTFOLIO</NavLink>
+                            <NavLink className="nav-link" to="/contact-us">CONTACT US</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
