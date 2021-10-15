@@ -8,7 +8,7 @@ export default class PortfolioPage extends Component {
     render() {
         return (
             <Fragment>
-                <TopNavigation/>
+                  <TopNavigation title="All Portfolio"/>
                 <HeaderBanner pageTitle="All Portfolio" />
                 <AllPortfolio/>
                 <Footer/>

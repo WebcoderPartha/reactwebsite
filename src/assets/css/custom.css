@@ -42,7 +42,7 @@
 }
 .menu a{
     text-decoration: none !important;
-    color: rgba(255, 255, 255, 0.699) !important;
+    color: rgba(255, 255, 255, 0.699);
     font-weight: bold !important;
 }
 .menuScoll{

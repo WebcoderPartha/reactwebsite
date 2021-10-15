@@ -15,7 +15,7 @@ export default class Home extends Component {
   render() {
     return (
       <Fragment>
-        <TopNavigation />
+        <TopNavigation title="Welcome to WebcoderPartha"/>
         <Topbanner />
         <Service />
         <Analysis />
